@@ -27,8 +27,6 @@ The Hill-Climbing algorithm starts with a random selection of 5 nodes and iterat
 ### Simulated Annealing
 Simulated Annealing is a probabilistic technique that explores the solution space with a "temperature" parameter, allowing the algorithm to occasionally accept suboptimal moves to escape local optima. Initially, the algorithm makes more frequent uphill moves, but as the temperature decreases, it gradually focuses on refining the best current solution. This enables a balance between exploration and convergence.
 
----
-
 ## Algorithm Comparison
 Each algorithm was tested on multiple instances of the graph with randomized edge weights. This comparison highlights how close Hill-Climbing and Simulated Annealing can get to the optimal solution provided by the Brute-Force method.
 
